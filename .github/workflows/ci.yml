@@ -1,0 +1,75 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  rust:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - name: Layout check
+        run: |
+          test -f Anchor.toml
+          test -f Cargo.toml
+          test -f programs/kombt/Cargo.toml
+          test -f programs/kombt/src/lib.rs
+          test -f rustfmt.toml
+          test -f clippy.toml
+          rs=$(find programs -name '*.rs' | wc -l)
+          echo "rust files: $rs"
+          test "$rs" -ge 8
+      - name: Validate workspace manifest
+        run: cargo metadata --no-deps --format-version 1 > /tmp/meta.json
+      - name: Verify program id is valid base58 (32 bytes)
+        run: |
+          python3 - <<'PY'
+          import re, sys
+          ALPHA = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz'
+          def b58decode(s):
+              n = 0
+              for c in s:
+                  n = n * 58 + ALPHA.index(c)
+              raw = []
+              while n:
+                  raw.append(n & 0xFF); n >>= 8
+              pad = len(s) - len(s.lstrip('1'))
+              return bytes([0]*pad + list(reversed(raw)))
+          src = open('programs/kombt/src/lib.rs').read()
+          m = re.search(r'declare_id!\("([^"]+)"\)', src)
+          assert m, 'declare_id! not found'
+          pid = m.group(1)
+          d = b58decode(pid)
+          assert len(d) == 32, f'expected 32 bytes, got {len(d)} for {pid}'
+          print(f'program id {pid} -> {len(d)} bytes ok')
+          PY
+
+  ts-sdk:
+    runs-on: ubuntu-latest
+    needs: rust
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Validate manifests
+        working-directory: ./sdk/typescript
+        run: |
+          test -f package.json
+          test -f tsconfig.json
+          test -f jest.config.js
+          node -e "JSON.parse(require('fs').readFileSync('package.json'))"
+          node -e "JSON.parse(require('fs').readFileSync('tsconfig.json'))"
+      - name: Install
+        working-directory: ./sdk/typescript
+        run: npm install --no-audit --no-fund
+      - name: Typecheck
+        working-directory: ./sdk/typescript
+        run: npx tsc --noEmit
+      - name: Tests
+        working-directory: ./sdk/typescript
+        run: npx jest --passWithNoTests

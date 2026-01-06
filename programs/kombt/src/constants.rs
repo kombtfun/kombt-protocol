@@ -1,0 +1,11 @@
+use anchor_lang::prelude::*;
+
+pub const PROTOCOL_FEE_BPS: u16 = 200;
+pub const MAX_DURATION_MINUTES: u32 = 60 * 24 * 7;
+pub const MIN_STAKE_LAMPORTS: u64 = 10_000;
+pub const MATCH_SEED: &[u8] = b"match";
+pub const CHALLENGE_SEED: &[u8] = b"challenge";
+pub const ESCROW_SEED: &[u8] = b"escrow";
+
+#[constant]
+pub const VERSION: u8 = 1;
