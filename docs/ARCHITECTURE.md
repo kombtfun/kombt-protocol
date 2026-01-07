@@ -32,3 +32,5 @@ Each match is settled by exactly one of three primitives:
 - Time — first wallet that touches its balance loses.
 
 <!-- rev0 -->
+
+<!-- rev1 -->
