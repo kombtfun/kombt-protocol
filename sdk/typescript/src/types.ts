@@ -38,3 +38,5 @@ export interface ChallengeSummary {
   durationMinutes: number;
   expiresAt: number;
 }
+
+// rev2
