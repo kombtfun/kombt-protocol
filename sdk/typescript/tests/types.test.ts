@@ -20,3 +20,5 @@ describe("kombt sdk type tags", () => {
     expect(MatchState.Cancelled).toBe(3);
   });
 });
+
+// rev5
