@@ -8,3 +8,5 @@ pub fn parse_oracle_target(buf: &[u8; 32]) -> &str {
 pub fn snapshot_pair(price: i64) -> i64 {
     price
 }
+
+// rev7
