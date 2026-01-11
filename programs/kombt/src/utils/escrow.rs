@@ -13,3 +13,5 @@ pub fn payout(stake_amount: u64) -> u64 {
 pub fn burn_share(amount: u64) -> u64 {
     protocol_fee(amount)
 }
+
+// rev10
