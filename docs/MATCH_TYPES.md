@@ -28,3 +28,5 @@ Open challenges (no acceptor) can be cancelled by the issuer once they are
 past their expiry. Active matches can be cancelled by either party only if
 the configured oracle has been unavailable for longer than the cancellation
 window (default 24h).
+
+<!-- rev12 -->
