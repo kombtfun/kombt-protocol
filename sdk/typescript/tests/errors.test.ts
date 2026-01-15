@@ -26,3 +26,5 @@ describe("kombt errors", () => {
     expect(e.name).toBe("KombtError");
   });
 });
+
+// rev18

@@ -54,3 +54,5 @@ export class MatchModule {
     return `KOMBT ${new BN(amount.toString()).toString()}`;
   }
 }
+
+// rev18
