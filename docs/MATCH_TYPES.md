@@ -30,3 +30,5 @@ the configured oracle has been unavailable for longer than the cancellation
 window (default 24h).
 
 <!-- rev12 -->
+
+<!-- rev13 -->
