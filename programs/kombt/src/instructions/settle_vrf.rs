@@ -27,3 +27,5 @@ pub fn handler(ctx: Context<SettleVrf>, randomness: [u8; 32]) -> Result<()> {
     ma.vrf_seed = randomness;
     Ok(())
 }
+
+// rev14
