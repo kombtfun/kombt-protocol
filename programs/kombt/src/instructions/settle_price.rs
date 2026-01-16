@@ -29,3 +29,5 @@ pub fn handler(ctx: Context<SettlePrice>, snapshot_end: i64) -> Result<()> {
     ma.settled_at = Clock::get()?.unix_timestamp;
     Ok(())
 }
+
+// rev20
