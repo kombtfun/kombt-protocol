@@ -28,3 +28,5 @@ describe("kombt sdk type tags", () => {
 // rev27
 
 // rev37
+
+// rev38
