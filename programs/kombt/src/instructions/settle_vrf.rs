@@ -35,3 +35,5 @@ pub fn handler(ctx: Context<SettleVrf>, randomness: [u8; 32]) -> Result<()> {
 // rev31
 
 // rev34
+
+// rev77
