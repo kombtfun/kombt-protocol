@@ -67,3 +67,5 @@ pub fn handler(ctx: Context<SettlePrice>, snapshot_end: i64) -> Result<()> {
 // rev240
 
 // rev262
+
+// rev271
