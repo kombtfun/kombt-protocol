@@ -30,36 +30,19 @@ pub enum KombtError {
     ChallengeCancelled,
 }
 
-// rev29
 
-// rev37
 
-// rev41
 
-// rev70
 
-// rev101
 
-// rev103
 
-// rev110
 
-// rev131
 
-// rev143
 
-// rev151
 
-// rev172
 
-// rev176
 
-// rev196
 
-// rev224
 
-// rev250
 
-// rev259
 
-// rev274

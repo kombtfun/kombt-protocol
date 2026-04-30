@@ -9,28 +9,15 @@ pub fn snapshot_pair(price: i64) -> i64 {
     price
 }
 
-// rev7
 
-// rev42
 
-// rev87
 
-// rev93
 
-// rev132
 
-// rev148
 
-// rev158
 
-// rev191
 
-// rev210
 
-// rev211
 
-// rev219
 
-// rev279
 
-// rev298

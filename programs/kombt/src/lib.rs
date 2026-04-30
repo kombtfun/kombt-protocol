@@ -53,32 +53,17 @@ pub mod kombt {
     }
 }
 
-// rev14
 
-// rev35
 
-// rev80
 
-// rev101
 
-// rev135
 
-// rev160
 
-// rev164
 
-// rev176
 
-// rev192
 
-// rev197
 
-// rev229
 
-// rev238
 
-// rev260
 
-// rev277
 
-// rev290

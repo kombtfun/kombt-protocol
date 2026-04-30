@@ -35,44 +35,23 @@ export class ChallengeModule {
   }
 }
 
-// rev1
 
-// rev3
 
-// rev6
 
-// rev32
 
-// rev35
 
-// rev42
 
-// rev66
 
-// rev75
 
-// rev78
 
-// rev113
 
-// rev126
 
-// rev173
 
-// rev185
 
-// rev186
 
-// rev187
 
-// rev200
 
-// rev205
 
-// rev223
 
-// rev241
 
-// rev266
 
-// rev285

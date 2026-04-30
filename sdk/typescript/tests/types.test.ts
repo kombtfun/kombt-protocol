@@ -21,40 +21,21 @@ describe("kombt sdk type tags", () => {
   });
 });
 
-// rev5
 
-// rev8
 
-// rev27
 
-// rev37
 
-// rev38
 
-// rev58
 
-// rev59
 
-// rev62
 
-// rev68
 
-// rev75
 
-// rev85
 
-// rev119
 
-// rev124
 
-// rev138
 
-// rev194
 
-// rev208
 
-// rev212
 
-// rev244
 
-// rev280

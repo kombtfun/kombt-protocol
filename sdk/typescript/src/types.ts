@@ -39,28 +39,15 @@ export interface ChallengeSummary {
   expiresAt: number;
 }
 
-// rev2
 
-// rev40
 
-// rev44
 
-// rev117
 
-// rev135
 
-// rev181
 
-// rev231
 
-// rev243
 
-// rev245
 
-// rev251
 
-// rev252
 
-// rev256
 
-// rev270

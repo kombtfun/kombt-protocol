@@ -31,38 +31,20 @@ Each match is settled by exactly one of three primitives:
 - Price — single integer snapshot at expiry.
 - Time — first wallet that touches its balance loses.
 
-<!-- rev0 -->
 
-<!-- rev1 -->
 
-<!-- rev29 -->
 
-<!-- rev43 -->
 
-<!-- rev80 -->
 
-<!-- rev82 -->
 
-<!-- rev87 -->
 
-<!-- rev95 -->
 
-<!-- rev106 -->
 
-<!-- rev115 -->
 
-<!-- rev126 -->
 
-<!-- rev133 -->
 
-<!-- rev134 -->
 
-<!-- rev149 -->
 
-<!-- rev159 -->
 
-<!-- rev178 -->
 
-<!-- rev276 -->
 
-<!-- rev290 -->

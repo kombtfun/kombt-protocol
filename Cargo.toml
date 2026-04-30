@@ -12,42 +12,22 @@ overflow-checks = true
 lto = "fat"
 codegen-units = 1
 
-# rev19
 
-# rev23
 
-# rev40
 
-# rev56
 
-# rev61
 
-# rev70
 
-# rev96
 
-# rev99
 
-# rev100
 
-# rev138
 
-# rev142
 
-# rev155
 
-# rev171
 
-# rev182
 
-# rev188
 
-# rev228
 
-# rev229
 
-# rev248
 
-# rev269
 
-# rev289

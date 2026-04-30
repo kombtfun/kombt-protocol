@@ -29,40 +29,21 @@ past their expiry. Active matches can be cancelled by either party only if
 the configured oracle has been unavailable for longer than the cancellation
 window (default 24h).
 
-<!-- rev12 -->
 
-<!-- rev13 -->
 
-<!-- rev20 -->
 
-<!-- rev21 -->
 
-<!-- rev30 -->
 
-<!-- rev74 -->
 
-<!-- rev77 -->
 
-<!-- rev89 -->
 
-<!-- rev123 -->
 
-<!-- rev128 -->
 
-<!-- rev141 -->
 
-<!-- rev143 -->
 
-<!-- rev146 -->
 
-<!-- rev213 -->
 
-<!-- rev215 -->
 
-<!-- rev223 -->
 
-<!-- rev233 -->
 
-<!-- rev238 -->
 
-<!-- rev262 -->

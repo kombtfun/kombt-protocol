@@ -29,30 +29,16 @@ pub enum ChallengeState {
     Expired = 3,
 }
 
-// rev22
 
-// rev51
 
-// rev78
 
-// rev94
 
-// rev104
 
-// rev105
 
-// rev116
 
-// rev123
 
-// rev175
 
-// rev199
 
-// rev200
 
-// rev211
 
-// rev255
 
-// rev283

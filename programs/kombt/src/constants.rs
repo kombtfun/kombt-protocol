@@ -10,38 +10,20 @@ pub const ESCROW_SEED: &[u8] = b"escrow";
 #[constant]
 pub const VERSION: u8 = 1;
 
-// rev22
 
-// rev38
 
-// rev68
 
-// rev76
 
-// rev124
 
-// rev136
 
-// rev144
 
-// rev147
 
-// rev201
 
-// rev204
 
-// rev223
 
-// rev236
 
-// rev237
 
-// rev244
 
-// rev253
 
-// rev257
 
-// rev270
 
-// rev277

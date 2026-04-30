@@ -27,36 +27,19 @@ describe("kombt errors", () => {
   });
 });
 
-// rev18
 
-// rev25
 
-// rev37
 
-// rev59
 
-// rev114
 
-// rev130
 
-// rev144
 
-// rev148
 
-// rev154
 
-// rev171
 
-// rev180
 
-// rev185
 
-// rev207
 
-// rev215
 
-// rev227
 
-// rev263
 
-// rev268

@@ -46,40 +46,21 @@ export class KombtClient {
   }
 }
 
-// rev11
 
-// rev27
 
-// rev46
 
-// rev50
 
-// rev76
 
-// rev100
 
-// rev109
 
-// rev127
 
-// rev143
 
-// rev156
 
-// rev162
 
-// rev222
 
-// rev230
 
-// rev240
 
-// rev242
 
-// rev256
 
-// rev275
 
-// rev291
 
-// rev292

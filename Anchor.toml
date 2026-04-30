@@ -14,46 +14,24 @@ test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 sdk/typescript/tests/**/
 [features]
 seeds = false
 
-# rev60
 
-# rev70
 
-# rev72
 
-# rev80
 
-# rev91
 
-# rev94
 
-# rev118
 
-# rev133
 
-# rev140
 
-# rev166
 
-# rev179
 
-# rev183
 
-# rev189
 
-# rev193
 
-# rev203
 
-# rev207
 
-# rev231
 
-# rev235
 
-# rev248
 
-# rev254
 
-# rev265
 
-# rev279

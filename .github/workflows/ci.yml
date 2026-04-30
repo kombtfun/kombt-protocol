@@ -74,38 +74,20 @@ jobs:
         working-directory: ./sdk/typescript
         run: npx jest --passWithNoTests
 
-# rev8
 
-# rev18
 
-# rev31
 
-# rev58
 
-# rev119
 
-# rev150
 
-# rev157
 
-# rev161
 
-# rev174
 
-# rev182
 
-# rev196
 
-# rev198
 
-# rev209
 
-# rev215
 
-# rev255
 
-# rev258
 
-# rev265
 
-# rev278
