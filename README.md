@@ -1,7 +1,9 @@
 <p align="center">
   <img src="assets/banner.png" alt="kombt" width="100%" />
 </p>
-
+<p align="center">
+AGwzbouqVaaWB8tkDz7gY8dsCKW57GsRaKsPretupump
+</p>
 <p align="center">
   <a href="https://kombt.fun" target="_blank"><img alt="Site" src="https://img.shields.io/badge/Site-kombt.fun-d69342?style=for-the-badge&labelColor=1a0f08" /></a>
   <a href="https://kombt.fun/arena" target="_blank"><img alt="Arena" src="https://img.shields.io/badge/Live%20Arena-OPEN-b33a2d?style=for-the-badge&labelColor=1a0f08" /></a>
